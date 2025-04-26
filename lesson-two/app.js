@@ -1,3 +1,5 @@
+const { time } = require("console");
+
 const person = {
     fname: "aleksa",
     age: 18,
@@ -109,3 +111,5 @@ const company = {
 
 console.log(company.departments[0].teams[1].members[0].role)
 console.log(company.departments[1].campaigns[0].platforms[2])
+
+
